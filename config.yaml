@@ -315,9 +315,9 @@ params:
   # Key is the link label order.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   socials:
-    social0: Github || https://github.com/elkan1788 || fab fa-github
+    #social0: Github || https://github.com/elkan1788 || fab fa-github
     #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-    social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+    #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
     #Twitter: https://twitter.com/yourname || fab fa-twitter
     #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -389,11 +389,11 @@ params:
   footer:
     # 启动谷歌翻译功能
     # Enable google translate in footer
-    translate: true
+    translate: false
     # 站点开始年份，默认为当下时间的年份
     # Specify the year when the site was setup.
     # If not defined, current year will be used.
-    since: 2010
+    since: 2022
 
     # 年份和版权信息之间的图标
     # Icon between year and copyright info.
@@ -420,7 +420,7 @@ params:
     # Beian ICP and gongan information for Chinese users.
     # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: true
+      enable: false
       # ICP 备案的具体信息
       icp: 粤ICP备 18047355-1 号
       # 公安网备的省份简称
@@ -431,7 +431,7 @@ params:
     # 站点支持供应商列表
     # Vendors list who support website.
     vendors:
-      enable: true
+      enable: false
       # 支持说明
       # Some support information description.
       title: 提供CDN/云资源支持
